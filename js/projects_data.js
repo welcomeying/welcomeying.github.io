@@ -45,7 +45,7 @@ const projects = {
 	},
 	{
 		name: 'Product Landing Page',
-		image: 'img/Product_Landing_page.png',
+		image: 'img/Product_Landing_Page.png',
 		link: 'https://codepen.io/welcomeying/full/NzpZaO/',
 		skills: ['HTML', 'CSS']
 	},
@@ -113,7 +113,7 @@ const projects = {
 	},
 	{
 		name: 'Wikipedia Viewer',
-		image: 'img/Wikipedia_Viewer.png',
+		image: 'img/Wikipedia_viewer.png',
 		link: 'https://codepen.io/welcomeying/full/gzdoJW/',
 		skills: ['JSON', 'AJAX']
 	},
