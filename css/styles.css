@@ -1,0 +1,304 @@
+/* Typography */
+
+html {
+	font-family: 'Open+Sans', sans-serif;
+}
+@media screen and (max-width: 575px) {
+	#home h1 {
+		font-size: 40px;
+	}
+	html {
+		font-size: 14px;
+	}
+	
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+
+/* Custom Styles */
+body {
+	background: #f4f4f6;
+	color: #4faae3;
+}
+
+
+nav {
+	background-color: #4faae3;
+	color: white;
+}
+
+nav header {
+	font-size: 1.3em;
+	margin-left: 25px;
+	color: #fff;
+}
+
+#navbar a {
+	color: #e6e6e6;
+}
+
+#navbar a:hover {
+	color: #fff;
+}
+
+#navbar .active {
+	color: #fff;
+}
+
+#home {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+#home .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	font-size: 3em;
+	padding: 10px;
+}
+
+.icons-social a {
+	color: #4faae3;
+}
+
+.icons-social a:hover, .icons-social a:active {
+	color: #b74fe3;
+}
+
+.icon-arrow i{
+	font-size: 3em;
+	color: #a7d5f1;
+}
+
+.arrow-about i{
+	position: absolute;
+	bottom: 0.5em;
+}
+
+.arrow-portfolio i{
+	position: relative;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.icon-arrow i:hover, .icon-arrow i:active {
+	color: #7bc0ea;
+}
+
+.anchor {
+	display: block;
+	position: relative;
+	top: -100px;
+	visibility: hidden;
+}
+
+#about {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 10px;
+	text-align: center;
+}
+
+#about p {
+	font-size: 1.5rem;
+	font-weight: 200;
+	width: 70vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about .btn {
+	border: solid 2px #b74fe3;
+	border-radius: 2rem;
+	background-color: #f4f4f6;
+	margin-top: 1rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #b74fe3;
+}
+
+
+#about .btn:hover, #about .btn:active {
+	background-color: #b74fe3;
+	color: white;
+}
+
+#about a {
+	text-decoration: none;
+}
+
+
+#all-skills {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.my-skill {
+	margin: 10px;
+	font-size: 16px;
+}
+
+.my-skill img {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+}
+
+#projects {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.project {
+	position: relative;
+	width: 320px;
+	height: 240px;
+	margin: 10px;
+}
+
+.projects-nav li {
+	display: inline-block;
+	margin: 10px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.projects-nav #active, .projects-nav li:hover {
+	color: #b74fe3;
+}
+
+#projects-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.image {
+	display: block;
+	width: 320px;
+	height: 240px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	opacity: 1;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 5px;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #808080;
+}
+
+.project:hover .overlay, .project:active .overlay {
+  opacity: 1;
+}
+
+.text {
+	width: 300px;
+	color: #d3eaf8;
+	font-size: 22px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	justify-content: center;
+}
+
+.skills {
+	color: white;
+	border: solid 1px white;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 12px;
+	margin: 5px;
+}
+
+.overlay .btn {
+	border: solid 2px #4faae3;
+	border-radius: 20px;
+	background-color: #808080;
+	position: relative;
+	top: 20px;
+	display: block;
+	width: 120px;
+	margin-left:auto;
+    margin-right:auto;
+    font-size: 14px;
+}
+
+.overlay a {
+	color: white;
+	text-decoration: none;
+}
+
+.overlay .btn:hover, .overlay .btn:active{
+	background-color: #4faae3;
+}
+
+footer {
+	color: black;
+	font-size: 0.8em;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+footer i {
+	color: red;
+}

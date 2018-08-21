@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Ying Huang | Portofolio</title>
+
+	<!-- Styles -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<!-- Nav bar -->
+	<nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top navbar-dark">
+		<header>Ying Huang | Portofolio</header>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse justify-content-end" id="nav-content">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+			<a class="nav-link active" href="#home">Home</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="#about">About</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="#projects">Projects</a>
+			</li>
+		</ul>
+		</div>
+	</nav>
+
+	<main>
+		<!-- Home section -->
+		<section id="home">
+			<h1>Hi, I'm Ying Huang!</h1>
+			<div class="tagline">Full Stack Web Developer | Self-Motivated Learner</div>
+			<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+			<div class="icons-social">
+				<a target="_blank" href="https://github.com/welcomeying"><i class="fab fa-github"></i></a>
+				<a target="_blank" href="https://www.linkedin.com/in/ying-huang-a84542164/"><i class="fab fa-linkedin"></i></a>
+				<a target="_blank" href="https://www.freecodecamp.org/welcomeying"><i class="fab fa-free-code-camp"></i></a>
+				<a target="_blank" href="https://codepen.io/welcomeying/"><i class="fab fa-codepen"></i></a>
+				<a href="mailto:yinghuang1016@gmail.com"><i class="far fa-envelope"></i></a>
+			</div>
+			<div class="icon-arrow arrow-about">
+				<a href="#anchor-about"><i class="fas fa-angle-down"></i></a>
+			</div>
+		</section>
+
+		<!-- About section -->
+		<section id="about">
+			<a id="anchor-about" class="anchor"></a>
+			<h2>Welcome to my personal portfolio</h2><br>
+			<p>I'm a self-taught, self-motivated full stack web developer. I love building simple, beautiful &amp; unique websites.
+			<a href="mailto:yinghuang1016@gmail.com"><button class="btn"><i class="far fa-envelope"></i> Hire me</button></a>
+			</p>
+			<br><br>
+			<h3>My Skills</h3>
+			<div id="all-skills">
+				<!--
+				<figure class="my-skill">
+					<img src="logo/html.jpg">
+					<figcaption>HTML5</figcaption>
+				</figure>
+				-->
+			</div>
+			<div class="icon-arrow arrow-portfolio">
+				<a href="#anchor-projects"><i class="fas fa-angle-down"></i></a>
+			</div>
+		</section>
+
+		<!-- Projects section -->
+		<section id="projects">
+			<h3>Projects</h3>
+			<a id="anchor-projects" class="anchor"></a>
+			<ul class="projects-nav">
+				<li class="Featured" id="active">Featured</li>
+				<li class="ResponsiveWebDesign">Responsive Web Design</li>
+				<li class="FrontEndLibraries">Front End Libraries</li>
+				<li class="DataVisualization">Data Visualization</li>
+				<li class="ApisMicroservices">APIs &amp; Microservices</li>
+				<li class="InfoSecurityQA">Info Security &amp; QA</li>
+			</ul>
+			<div id="projects-list">
+				<!--
+				<div class="project">
+					<img class="image" src="img/Pomodoro_Clock.png" alt="Pomodoro_Clock">
+					<div class="overlay">
+						<div class="text">
+							project description
+							<span class="skills">JAVASCRIPT</span>
+							<span class="skills">REACT</span>
+							<button class="btn">
+								<a href="">View Project ></a>
+							</button>
+						</div>
+					</div>
+				</div>
+				-->
+			</div>
+		</section>
+	</main>
+	<footer>
+		<hr>
+		Made with <i class="fas fa-heart"></i> by Ying Huang
+	</footer>
+
+<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="js/myskills_data.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/projects_data.js"></script>
+	<script src="js/projects.js"></script>
+	
+</body>
+</html>
