@@ -1,7 +1,7 @@
 
-# Ying Huang | Portofolio
+# Ying Huang | Portfolio
 
-This is my portofolio website.
+This is my portfolio website: https://welcomeying.github.io
 
 ### Skills and resources 
 * HTML
