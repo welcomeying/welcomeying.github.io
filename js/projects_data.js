@@ -15,7 +15,7 @@ const projects = {
 	{
 		name: 'Visualize Data with a Choropleth Map',
 		image: 'img/D3_Choropleth_Map.png',
-		link: 'https://codepen.io/welcomeying/full/rrVpNp/',
+		link: 'https://codepen.io/welcomeying/full/jpLEMr/',
 		skills: ['JSON', 'D3']
 	},
 	{
@@ -102,13 +102,13 @@ const projects = {
 	{
 		name: 'Visualize Data with a Choropleth Map',
 		image: 'img/D3_Choropleth_Map.png',
-		link: 'https://codepen.io/welcomeying/full/rrVpNp/',
+		link: 'https://codepen.io/welcomeying/full/jpLEMr/',
 		skills: ['JSON', 'D3']
 	},
 	{
 		name: 'Visualize Data with a Treemap Diagram',
 		image: 'img/D3_Treemap_Diagram.png',
-		link: 'https://codepen.io/welcomeying/full/wxgooN/',
+		link: 'https://codepen.io/welcomeying/full/zLdyod/',
 		skills: ['JSON', 'D3']
 	},
 	{
@@ -120,19 +120,19 @@ const projects = {
 	{
 		name: 'Visualize Data with a Heat Map',
 		image: 'img/D3_Heat_Map.png',
-		link: 'https://codepen.io/welcomeying/full/XYLKRw/',
+		link: 'https://codepen.io/welcomeying/full/LBRewe/',
 		skills: ['JSON', 'D3']
 	},
 	{
 		name: 'Visualize Data with a Bar Chart',
 		image: 'img/D3_Bar_Chart.png',
-		link: 'https://codepen.io/welcomeying/full/gzXBKW/',
+		link: 'https://codepen.io/welcomeying/full/ajzQrj/',
 		skills: ['JSON', 'D3']
 	},
 	{
 		name: 'Visualize Data with a Scatterplot Graph',
 		image: 'img/D3_Scatter_Plot.png',
-		link: 'https://codepen.io/welcomeying/full/JZVdBo/',
+		link: 'https://codepen.io/welcomeying/full/bjeaay/',
 		skills: ['JSON', 'D3']
 	}],
 	ApisMicroservices: [

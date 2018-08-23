@@ -26,6 +26,7 @@ function changeProjects(item) {
 	category.map(project => {
 		let projectDiv = document.createElement('div');
 		projectDiv.className = 'project';
+		projectDiv.onclick = function(){''};
 
 		let image = document.createElement('img');
 		image.src = project.image;
