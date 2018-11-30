@@ -57,6 +57,12 @@ const projects = {
 	}],
 	FrontEndLibraries: [
 	{
+		name: 'React Recipe Box',
+		image: 'img/React_Recipe_Box.png',
+		link: 'https://codepen.io/welcomeying/full/wQxeMZ/',
+		skills: ['REACT', 'LOCAL STORAGE']
+	},
+	{
 		name: 'JavaScript Calculator',
 		image: 'img/JavaScript_Calculator.png',
 		link: 'https://codepen.io/welcomeying/full/rrVpNp/',
