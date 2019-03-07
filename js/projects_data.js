@@ -1,16 +1,16 @@
 const projects = {
 	Featured: [
 	{
+		name: 'Book Finder',
+		image: 'img/Book_Finder.png',
+		link: 'https://github.com/welcomeying/book-finder',
+		skills: ['REACT', 'Google Books API']
+	},
+	{
 		name: 'JavaScript Calculator',
 		image: 'img/JavaScript_Calculator.png',
 		link: 'https://codepen.io/welcomeying/full/rrVpNp/',
 		skills: ['REACT', 'JAVASCRIPT']
-	},
-	{
-		name: 'Pomodoro Clock',
-		image: 'img/Pomodoro_Clock.png',
-		link: 'https://codepen.io/welcomeying/full/wxgooN/',
-		skills: ['JAVASCRIPT', 'REACT']
 	},
 	{
 		name: 'Visualize Data with a Choropleth Map',
@@ -36,26 +36,13 @@ const projects = {
 		link: 'https://github.com/welcomeying/anonymous-message-board',
 		skills: ['EXPRESS.js', 'MONGODB', 'HELMET.js', 'CHAI']
 	}],
-	ResponsiveWebDesign: [
-	{
-		name: 'Survey Form',
-		image: 'img/Survey_Form.png',
-		link: 'https://codepen.io/welcomeying/full/JZbYNO/',
-		skills: ['HTML', 'CSS']
-	},
-	{
-		name: 'Product Landing Page',
-		image: 'img/Product_Landing_Page.png',
-		link: 'https://codepen.io/welcomeying/full/NzpZaO/',
-		skills: ['HTML', 'CSS']
-	},
-	{
-		name: 'Technical Documentation Page',
-		image: 'img/Technical_Documentation_Page.png',
-		link: 'https://codepen.io/welcomeying/full/YvQKzd/',
-		skills: ['HTML', 'CSS']
-	}],
 	FrontEndLibraries: [
+	{
+		name: 'Book Finder',
+		image: 'img/Book_Finder.png',
+		link: 'https://github.com/welcomeying/book-finder',
+		skills: ['REACT', 'Google Books API']
+	},
 	{
 		name: 'React Recipe Box',
 		image: 'img/React_Recipe_Box.png',
@@ -103,6 +90,25 @@ const projects = {
 		image: 'img/Markdown_Previewer.png',
 		link: 'https://codepen.io/welcomeying/full/JZVdBo/',
 		skills: ['REACT', 'MARKDOWN']
+	}],
+	ResponsiveWebDesign: [
+	{
+		name: 'Survey Form',
+		image: 'img/Survey_Form.png',
+		link: 'https://codepen.io/welcomeying/full/JZbYNO/',
+		skills: ['HTML', 'CSS']
+	},
+	{
+		name: 'Product Landing Page',
+		image: 'img/Product_Landing_Page.png',
+		link: 'https://codepen.io/welcomeying/full/NzpZaO/',
+		skills: ['HTML', 'CSS']
+	},
+	{
+		name: 'Technical Documentation Page',
+		image: 'img/Technical_Documentation_Page.png',
+		link: 'https://codepen.io/welcomeying/full/YvQKzd/',
+		skills: ['HTML', 'CSS']
 	}],
 	DataVisualization: [
 	{
