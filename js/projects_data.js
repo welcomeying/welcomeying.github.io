@@ -4,7 +4,7 @@ const projects = {
 		name: 'Book Finder',
 		image: 'img/Book_Finder.png',
 		link: 'https://github.com/welcomeying/book-finder',
-		skills: ['REACT', 'Google Books API']
+		skills: ['REACT', 'Google Books API', 'LOCAL STORAGE']
 	},
 	{
 		name: 'JavaScript Calculator',
