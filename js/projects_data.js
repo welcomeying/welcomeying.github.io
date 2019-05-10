@@ -1,6 +1,12 @@
 const projects = {
 	Featured: [
 	{
+		name: 'Guess The Language',
+		image: 'img/Guess_The_Language.png',
+		link: 'https://github.com/chingu-voyages/v8-geckos-team-04',
+		skills: ['REACT HOOKS', 'AXIOS', 'JEST']
+	},
+	{
 		name: 'Book Finder',
 		image: 'img/Book_Finder.png',
 		link: 'https://github.com/welcomeying/book-finder',
@@ -19,12 +25,6 @@ const projects = {
 		skills: ['JSON', 'D3']
 	},
 	{
-		name: 'Survey Form',
-		image: 'img/Survey_Form.png',
-		link: 'https://codepen.io/welcomeying/full/JZbYNO/',
-		skills: ['HTML', 'CSS']
-	},
-	{
 		name: 'Item Catalog Web App',
 		image: 'img/Item_Catalog_Web_App.png',
 		link: 'https://github.com/welcomeying/item_catalog',
@@ -37,6 +37,12 @@ const projects = {
 		skills: ['EXPRESS.js', 'MONGODB', 'HELMET.js', 'CHAI']
 	}],
 	FrontEndLibraries: [
+	{
+		name: 'Guess The Language',
+		image: 'img/Guess_The_Language.png',
+		link: 'https://github.com/chingu-voyages/v8-geckos-team-04',
+		skills: ['REACT HOOKS', 'AXIOS', 'JEST']
+	},
 	{
 		name: 'Book Finder',
 		image: 'img/Book_Finder.png',
